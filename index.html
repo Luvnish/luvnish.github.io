@@ -32,6 +32,9 @@
 	      	font-family: Tahoma;
 	     },
 	     #wrapper{
+		     margin-left:15%;
+		     margin-right:15%;
+		     margin-top:2%;
 	     },
 	     #header {
 	      	text-align:center;
@@ -53,8 +56,20 @@
 	        "on": "visible",
 	        "request": "pageview"
 	      }
-	    }
+	    },
+	    "triggers": {
+		    "outboundLinks": {
+		        "on": "click",
+		        "selector": "a",
+		        "request": "event",
+		        "vars": {
+		        "eventCategory": "outbound",
+		        "eventAction": "click",
+		        "eventValue": "${outboundLink}"
+        	}
+      	    }
 	  }
+	}
 	  </script>
 	</amp-analytics>
 	<meta name="twitter:card" content="summary" />
@@ -69,8 +84,8 @@
 		</div>
 		<div id="body-content">
 			<p>Hello World<br>
-				Certified by <a href="https://www.google.com/partners/#i_profile;idtf=108452155953943130883;">Google Partners</a> in Google Adwords and Google Analytics.<br>
-				Find me on <a href="https://www.linkedin.com/in/arvind-tacouri-03033050">LinkedIn</a> for more professional details.<br><br>
+				Certified by <a data-vars-outbound-link="https://www.google.com/partners/#i_profile;idtf=108452155953943130883;" href="https://www.google.com/partners/#i_profile;idtf=108452155953943130883;">Google Partners</a> in Google Adwords and Google Analytics.<br>
+				Find me on <a data-vars-outbound-link="https://www.linkedin.com/in/arvind-tacouri-03033050" href="https://www.linkedin.com/in/arvind-tacouri-03033050">LinkedIn</a> for more professional details.<br><br>
 				Still working on making this page into something worthwhile.
 				<br>
 				A journey of a thousand miles begins with a single step.</p>

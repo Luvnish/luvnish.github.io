@@ -1,69 +1,679 @@
-<!doctype html>
-<html ⚡ lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-	<script type="application/ld+json">
-	    {
-	      "@context": "http://schema.org",
-	      "@type": "WebPage",
-	      "specialty": "SEO",
-	      "alternateName": "Luvnish",
-	      "keywords": "SEO, SEM, Google Adwords Certified, Google Analytics Certified, Mauritius",
-	      "license": "https://www.google.com/partners/#i_profile;idtf=108452155953943130883;",
-	      "mainEntity":{
-	      	"@type": "AboutPage",
-	      	"description": "Arvind Tacouri - SEO / SEM Specialist in Mauritius. Ceritifed by Google Adwords and Analytics. Well-versed in the ways of e-Commerce / Online Shopping."
-	      }
-	    }
-    </script>
-	<title>Arvind Tacouri - SEO / SEM Analyst</title>
-	<meta name="description" content="Google Adwords and Analytics Certified with an edge in the ways of E-Commerce / Online Shopping. Tirelessly learning the ropes in SEO and SEM." />
-	<link rel="canonical" href="http://arvind.tacouri.com/" />
-	<meta name="google-site-verification" content="uwjkLp-sAs1JUf_r4qqShDGvZ3bHY8sqNcnVBnlE8-Q" />
-	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <style amp-custom>
-    	h1 {
-		color: black;
-	      	font-family: Tahoma;
-	      	font-weight:normal;
-	}
-	p {
-		font-family: Tahoma;
-	}
-	#wrapper{
-		margin-left:15%;
-		margin-right:15%;
-		margin-top:2%;
-	}
-	#header {
-	}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvind Tacouri | Career Profile</title>
+    <script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "Arvind Tacouri - Technical Digital Marketer",
+    "url": "https://arvind.tacouri.com",
+    "specialty": [
+        "SEO",
+        "SEM",
+        "Programmatic Advertising",
+        "Ad Operations",
+        "Web Development"
+    ],
+    "alternateName": "Arvind",
+    "keywords": "SEO, SEM, Programmatic Advertising, Ad Ops, Prebid.js, Google Ad Manager, Google Analytics Certified, Web Development, Mauritius, Denmark",
+    "mainEntity": {
+        "@type": "Person",
+        "name": "Arvind Tacouri",
+        "jobTitle": "Founder & Consultant",
+        "description": "Arvind Tacouri - Technical Digital Marketer and Ad Ops Specialist. Expert in SEO, SEM, and Programmatic Advertising with a background in Computer Science & Engineering. Founder of Web Atelier ApS and LakazAd.",
+        "knowsAbout": [
+        "Digital Marketing",
+        "E-commerce",
+        "Full-stack Development",
+        "Google Ad Manager",
+        "Search Engine Optimization"
+        ],
+        "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Horsens",
+        "addressRegion": "Central Denmark Region",
+        "addressCountry": "Denmark"
+        },
+        "sameAs": [
+        "https://webatelier.dk",
+        "https://lakazad.com",
+        "https://saesonvis.dk"
+        ]
+    }
+    }
+</script>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #f8fafc;
+            --accent-color: #38bdf8;
+            --secondary-color: #1e293b;
+            --muted-color: #94a3b8;
+            --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            --transition-speed: 0.3s;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-color);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--secondary-color);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-color);
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(15, 23, 42, 0.9);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            text-decoration: none;
+            letter-spacing: -1px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color var(--transition-speed);
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Sections */
+        section {
+            padding: 100px 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: var(--accent-color);
+            display: flex;
+            align-items: center;
+        }
+
+        h2::after {
+            content: '';
+            height: 1px;
+            flex-grow: 1;
+            background: rgba(56, 189, 248, 0.3);
+            margin-left: 1.5rem;
+        }
+
+        /* Hero Section */
+        #hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 0;
+        }
+
+        .hero-pre {
+            color: var(--accent-color);
+            font-family: monospace;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .hero-name {
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        .hero-headline {
+            font-size: clamp(1.5rem, 5vw, 3rem);
+            color: var(--muted-color);
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        .hero-desc {
+            max-width: 600px;
+            color: var(--muted-color);
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all var(--transition-speed);
+        }
+
+        .cta-btn:hover {
+            background: rgba(56, 189, 248, 0.1);
+            transform: translateY(-3px);
+        }
+
+        /* Experience Tabs */
+        .exp-container {
+            display: flex;
+            gap: 2rem;
+            min-height: 300px;
+        }
+
+        .exp-tabs {
+            display: flex;
+            flex-direction: column;
+            border-left: 2px solid var(--secondary-color);
+            min-width: 200px;
+        }
+
+        .tab-btn {
+            padding: 0.75rem 1.5rem;
+            text-align: left;
+            background: none;
+            border: none;
+            color: var(--muted-color);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all var(--transition-speed);
+            border-left: 2px solid transparent;
+            margin-left: -2px;
+        }
+
+        .tab-btn.active {
+            color: var(--accent-color);
+            background: rgba(56, 189, 248, 0.05);
+            border-left: 2px solid var(--accent-color);
+        }
+
+        .tab-btn:hover {
+            color: var(--accent-color);
+            background: rgba(56, 189, 248, 0.02);
+        }
+
+        .exp-content {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .exp-content.active {
+            display: block;
+        }
+
+        .exp-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .exp-company {
+            color: var(--accent-color);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .exp-date {
+            font-size: 0.85rem;
+            color: var(--muted-color);
+            margin-bottom: 1.5rem;
+            font-family: monospace;
+        }
+
+        .exp-list {
+            list-style: none;
+        }
+
+        .exp-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--muted-color);
+        }
+
+        .exp-list li::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+
+        /* Projects Grid */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .project-card {
+            background: var(--secondary-color);
+            padding: 2rem;
+            border-radius: 8px;
+            transition: transform var(--transition-speed);
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--accent-color);
+        }
+
+        .project-icon {
+            font-size: 2rem;
+            color: var(--accent-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .project-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .project-desc {
+            color: var(--muted-color);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .project-link {
+            text-decoration: none;
+            color: var(--accent-color);
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Skills Section */
+        .skills-wrap {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-cat h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-color);
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .tag {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent-color);
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-family: monospace;
+        }
+
+        /* Contact/Footer */
+        footer {
+            padding: 5rem 2rem;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .footer-text {
+            color: var(--muted-color);
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .exp-container {
+                flex-direction: column;
+            }
+
+            .exp-tabs {
+                flex-direction: row;
+                overflow-x: auto;
+                border-left: none;
+                border-bottom: 2px solid var(--secondary-color);
+                margin-bottom: 1.5rem;
+            }
+
+            .tab-btn {
+                border-left: none;
+                border-bottom: 2px solid transparent;
+                margin-left: 0;
+                margin-bottom: -2px;
+            }
+
+            .tab-btn.active {
+                border-left: none;
+                border-bottom: 2px solid var(--accent-color);
+            }
+
+            .hero-name {
+                font-size: 3rem;
+            }
+
+            nav {
+                padding: 1rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+        }
     </style>
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-	<!-- AMP Analytics --><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Experience Tab Switcher
+            const tabs = document.querySelectorAll('.tab-btn');
+            const contents = document.querySelectorAll('.exp-content');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const target = tab.getAttribute('data-target');
+
+                    tabs.forEach(t => t.classList.remove('active'));
+                    contents.forEach(c => c.classList.remove('active'));
+
+                    tab.classList.add('active');
+                    document.getElementById(target).classList.add('active');
+                });
+            });
+
+            // Smooth Scroll for Nav Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Simple reveal animation on scroll
+            const observerOptions = { threshold: 0.1 };
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('section').forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(30px)';
+                section.style.transition = 'all 0.8s ease-out';
+                observer.observe(section);
+            });
+        });
+    </script>
 </head>
+
 <body>
-	<!-- Google Tag Manager -->
-	<amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-5HG74P3&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@arvindtacouri" />
-	<meta name="twitter:title" content="Arvind Tacouri" />
-	<meta name="twitter:description" content="Digital Marketing Manager with an edge in SEM - a Padawan training in the ways of Web Marketing and E-Commerce." />
-	<meta name="twitter:image" content="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/3/000/1b4/0d9/30cff39.jpg" />
-	<div id="wrapper">
-		<div id="header">
-			<h1>Arvind Tacouri</h1>
-			<p>SEM Analyst with an edge in E-Commerce</p>	
-		</div>
-		<div id="body-content">
-			<p>Hello World<br>
-				Certified by <a href="https://www.google.com/partners/#i_profile;idtf=108452155953943130883;">Google Partners</a> in Google Adwords and Google Analytics.<br>
-				Find me on <a rel="me" href="https://www.linkedin.com/in/arvind-tacouri-03033050">LinkedIn</a> for more professional details.<br><br>
-				Still working on making this page into something worthwhile.
-				<br>
-				A journey of a thousand miles begins with a single step.</p>
-		</div>
-	</div>
+
+    <nav>
+        <a href="#" class="logo">AT</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <p class="hero-pre">Hi, my name is</p>
+            <h1 class="hero-name">Arvind Tacouri.</h1>
+            <h2 class="hero-headline">Building digital products & traffic.</h2>
+            <p class="hero-desc">
+                I am a technical digital marketer and developer with over a decade of experience.I
+                specialize in ad operations, performance marketing, and full-stack development, bridging the gap between
+                management and technical execution.
+            </p>
+            <div>
+                <a href="#projects" class="cta-btn">View My Projects</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p style="color: var(--muted-color); font-size: 1.1rem; margin-bottom: 1.5rem;">
+                My background in Computer Science gives me a fresh, technical perspective on digital marketing
+                strategies.I am a problem-solver who believes in the "Keep It Simple and Stupid" philosophy
+                while tackling complex concepts.
+            </p>
+            <p style="color: var(--muted-color); font-size: 1.1rem;">
+                Currently based in Horsens, Denmark, I operate as a consultant and founder while holding deep expertise
+                in programmatic advertising and SEO.I am fluent in English, French, Danish, and
+                Hindi.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Where I've Worked</h2>
+            <div class="exp-container">
+                <div class="exp-tabs">
+                    <button class="tab-btn active" data-target="wa">Web Atelier</button>
+                    <button class="tab-btn" data-target="media">Media Group</button>
+                    <button class="tab-btn" data-target="ecommerce">Luxury E-com</button>
+                    <button class="tab-btn" data-target="agency">Digital Agency</button>
+                </div>
+
+                <div class="exp-content active" id="wa">
+                    <h3 class="exp-title">Founder & Consultant</h3>
+                    <p class="exp-company">Web Atelier ApS</p>
+                    <p class="exp-date">Jan 2024 - Present</p>
+                    <ul class="exp-list">
+                        <li>Launched LakazAd, a specialized ad backfill solution for publishers.</li>
+                        <li>Provided programmatic consultancy for publishers across Europe, focusing on Prebid.js
+                            stacks.</li>
+                        <li>Lead full-stack development and digital marketing strategy for internal and client
+                            projects.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-content" id="media">
+                    <h3 class="exp-title">Performance Marketing Manager</h3>
+                    <p class="exp-company">Leading Danish News Publisher</p>
+                    <p class="exp-date">2021 - 2023</p>
+                    <ul class="exp-list">
+                        <li>Optimized Google Ad Manager and Prebid.js stack for one of Denmark's largest news
+                            networks.</li>
+                        <li>Managed onboarding of new Supply Side Platforms (SSPs) and conducted extensive A/B testing
+                            for ad placements.</li>
+                        <li>Oversaw SEO transitions during major CMS migrations and ensured GDPR compliance across
+                            digital properties.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-content" id="ecommerce">
+                    <h3 class="exp-title">Digital Marketing Manager</h3>
+                    <p class="exp-company">Premium Luxury Brand (Switzerland/Mauritius)</p>
+                    <p class="exp-date">5 Years</p>
+                    <ul class="exp-list">
+                        <li>Mediated between developer teams and management to launch Magento 1 and 2 platforms[cite:
+                            3].</li>
+                        <li>Managed global online traffic channels including SEO, SEM, and affiliate marketing.
+                        </li>
+                        <li>Engineered high-converting email automation journeys and managed product feeds for
+                            international marketplaces.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-content" id="agency">
+                    <h3 class="exp-title">Digital Traffic Manager</h3>
+                    <p class="exp-company">International Marketing Startup</p>
+                    <p class="exp-date">Past Experience</p>
+                    <ul class="exp-list">
+                        <li>Led an international team of 5 members to scale revenue via Google Ads and SEO.
+                        </li>
+                        <li>Focused on data-driven decision making and conversion rate optimization (CRO).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Current Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-icon">✦</div>
+                    <h3 class="project-name">Web Atelier ApS</h3>
+                    <p class="project-desc">A dedicated digital bureau specializing in performance marketing, front-end
+                        design, and backend development.</p>
+                    <a href="[https://webatelier.dk](https://webatelier.dk)" target="_blank"
+                        class="project-link">webatelier.dk ↗</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">⚇</div>
+                    <h3 class="project-name">LakazAd</h3>
+                    <p class="project-desc">An innovative ad delivery solution designed to work seamlessly with primary
+                        ad servers to capture backfill revenue.</p>
+                    <a href="[https://lakazad.com](https://lakazad.com)" target="_blank"
+                        class="project-link">lakazad.com ↗</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">☘</div>
+                    <h3 class="project-name">Sæsonvis</h3>
+                    <p class="project-desc">A digital resource hub for gardening, housekeeping tips, and botany
+                        enthusiasts.</p>
+                    <a href="[https://saesonvis.dk](https://saesonvis.dk)" target="_blank"
+                        class="project-link">saesonvis.dk ↗</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Toolbox</h2>
+            <div class="skills-wrap">
+                <div class="skill-cat">
+                    <h3>Development</h3>
+                    <div class="skill-tags">
+                        <span class="tag">HTML / CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Magento 2</span>
+                        <span class="tag">WordPress</span>
+                    </div>
+                </div>
+                <div class="skill-cat">
+                    <h3>Marketing</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Google Ad Manager</span>
+                        <span class="tag">Prebid.js</span>
+                        <span class="tag">SEO / SEM</span>
+                        <span class="tag">Programmatic</span>
+                        <span class="tag">Mailchimp</span>
+                    </div>
+                </div>
+                <div class="skill-cat">
+                    <h3>Design & Data</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Figma / Sketch</span>
+                        <span class="tag">Google Analytics</span>
+                        <span class="tag">Looker Studio</span>
+                        <span class="tag">GDPR Compliance</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <p style="color: var(--muted-color); font-size: 1.1rem; margin-bottom: 3rem;">
+                    I am always open to discussing new projects, programmatic opportunities, or technical challenges.
+                </p>
+                <a href="mailto:hej@tacouri.com" class="cta-btn">Say Hello</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="nav-links" style="justify-content: center; margin-bottom: 1.5rem;">
+            <a href="[https://webatelier.dk](https://webatelier.dk)">Web Atelier</a>
+            <a href="[https://lakazad.com](https://lakazad.com)">LakazAd</a>
+            <a href="[https://saesonvis.dk](https://saesonvis.dk)">Sæsonvis</a>
+        </div>
+        <p class="footer-text">Built with Code & Coffee. Hosted at arvind.tacouri.com</p>
+        <p style="font-size: 0.7rem; color: var(--muted-color); margin-top: 1rem;">© 2026 Arvind Tacouri. All private
+            data withheld for privacy.</p>
+    </footer>
+
 </body>
+
 </html>
